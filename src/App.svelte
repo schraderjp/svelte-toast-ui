@@ -3,7 +3,7 @@
   import '@toast-ui/editor/dist/toastui-editor.css'; // Editor's Style
   import { onMount } from 'svelte';
   import { download } from './lib/utils.js';
-  import { editorContent } from './lib/stores.js';
+  //import { editorContent } from './lib/stores.js';
   let editorEl;
 
   onMount(() => {
